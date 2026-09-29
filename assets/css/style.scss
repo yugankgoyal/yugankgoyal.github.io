@@ -127,9 +127,8 @@ ol.subs li { margin: 0 0 2px; }
 /* ---------- small screens ---------- */
 @media (max-width: 860px) {
   .wrap { grid-template-columns: 1fr; gap: 28px; padding: 28px 20px 60px; }
-  .side .tagline { white-space: normal; }
-  .side { position: static; display: grid; grid-template-columns: 120px 1fr; column-gap: 20px; align-items: start; }
-  .side .photo { grid-row: 1 / span 4; margin: 0; }
+  .side { position: static; }
+  .side .photo { width: 160px; }
   .filter-layout { grid-template-columns: 1fr; gap: 20px; }
   .filters { position: static; order: 1; }
   .filters ul { display: flex; flex-wrap: wrap; gap: 4px 18px; }
