@@ -35,7 +35,7 @@ social:
     link: https://x.com/yugank_goyal
   - name: GitHub
     icon: fa-brands fa-github
-    link: https://github.com/username
+    link: https://github.com/yugankgoyal
 
 exclude:
   - vendor
