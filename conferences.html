@@ -1,0 +1,15 @@
+---
+layout: default
+title: Conferences
+permalink: /conferences/
+---
+
+<h2>Presentations in Select Conferences</h2>
+<ul class="entries confs">
+  {%- for c in site.data.conferences %}
+  <li>
+    <span class="when">{{ c.date }}</span>
+    <div><em>{{ c.title }}</em><span class="where">{{ c.event }}, {{ c.place }}</span></div>
+  </li>
+  {%- endfor %}
+</ul>

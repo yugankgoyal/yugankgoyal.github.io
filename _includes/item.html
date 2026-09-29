@@ -1,0 +1,12 @@
+{%- assign p = include.p -%}
+{%- assign last = p.title | slice: -1 -%}
+<li data-fields="{{ p.fields | join: ' ' }}">
+  <span class="title">{% if p.link %}<a href="{{ p.link }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>{% unless last == '?' %}.{% endunless %}
+  {%- if p.venue %} <em>{{ p.venue }}</em>{% endif -%}
+  {%- if p.year or p.with %} ({{ p.year }}{% if p.year and p.with %}, {% endif %}{% if p.with %}with {{ p.with }}{% endif %}){% endif -%}
+  {%- if p.note %} <span class="note">{{ p.note }}</span>{% endif -%}
+  {%- if p.subs %}
+  <ol class="subs">{% for s in p.subs %}<li>{{ s }}</li>{% endfor %}</ol>
+  {%- endif %}
+  <span class="tags">{% for f in p.fields %}{{ site.data.fields[f] }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>
+</li>

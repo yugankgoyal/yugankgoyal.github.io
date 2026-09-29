@@ -1,0 +1,50 @@
+title: Yugank Goyal
+tagline:
+  - Associate Professor
+  - Chair, JSW School of Public Policy
+  - IIM Ahmedabad
+photo: /assets/img/photo.jpg
+email: yugankg@iima.ac.in
+description: Associate Professor & Chair, JSW School of Public Policy, IIM Ahmedabad
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# top tabs, in order
+nav:
+  - name: About
+    url: /
+  - name: Publications
+    url: /publications/
+  - name: Projects
+    url: /projects/
+  - name: Working Papers
+    url: /working-papers/
+  - name: Op-eds
+    url: /op-eds/
+  - name: Conferences
+    url: /conferences/
+
+# sidebar links (icons from Font Awesome)
+social:
+  - name: LinkedIn
+    icon: fa-brands fa-linkedin
+    link: https://www.linkedin.com/in/yugank-goyal-21b49a157
+  - name: X
+    icon: fa-brands fa-x-twitter
+    link: https://x.com/yugank_goyal
+  - name: GitHub
+    icon: fa-brands fa-github
+    link: https://github.com/username
+
+exclude:
+  - vendor
+  - serve.sh
+  - README.md
+  - LICENSE
+  - script
+  - deploy.sh
+  - jekyll-theme-minimalist.gemspec
+
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+github: [metadata]

@@ -1,0 +1,287 @@
+[
+ {
+  "type": "paper",
+  "title": "Alcohol Prohibition and School Dropouts: A Natural Experiment in Bihar, India",
+  "with": "S. Ramkumar and K. Bhargava",
+  "fields": [
+   "econ",
+   "edu"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Election Budget Cycles: A 40-Year Review of State Revenue Deficits during and pre-Election Years (Vidhan Sabha) in India",
+  "with": "H. Pattipaty",
+  "fields": [
+   "elec",
+   "econ"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Are Indian Banking Agents Coercively Selling Insurance: Some Preliminary Insights from Insurance Firms' Annual Report Data",
+  "with": "J. Sant and H. Pattipaty",
+  "fields": [
+   "econ",
+   "reg"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Are rising bank loans finding their way into risky portfolios in stock markets? Some initial speculations",
+  "with": "H. Pattipaty",
+  "fields": [
+   "econ"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Why don't People Adopt Policies which are Beneficial for them: A Case of Jeevan Praman Yojana in India",
+  "with": "P. Chellappan",
+  "fields": [
+   "econ"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Nano Entrepreneurs in Cultural Industry of India: Four Conceptual Puzzles in the Artisan-Entrepreneur Complexity",
+  "venue": "CEED, Gokhale Institute of Politics & Economics Working Paper",
+  "year": "2023",
+  "with": "P. Chellappan and H. Shah",
+  "fields": [
+   "inf",
+   "econ"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Towards a Regulatory Framework for Higher Education Institutions in India",
+  "venue": "FLAME Working Paper",
+  "year": "2023",
+  "with": "K. Shah",
+  "link": "https://flame.edu.in/pdfs/working-paper-series/2023/FLAME-WorkingPaper_YG.pdf",
+  "fields": [
+   "edu",
+   "reg"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Doubling NAAC Accreditation in Maharashtra: Applying Multiple Streams Framework in Higher Education Regulation in India",
+  "with": "J. Sant",
+  "fields": [
+   "edu",
+   "reg"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Tamil Nadu as India's Transplant Hub: A Case Study in Regulatory Innovation",
+  "with": "A. Shah",
+  "fields": [
+   "reg"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Old regulations; new objectives: Towards a theory of regulatory excavation",
+  "with": "Deva P.M.",
+  "fields": [
+   "reg",
+   "law"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Why do Indian Judges deliver 'Impractical' Judgments: The Case of 40-Year Judicial Interventions in Street Vending in India",
+  "fields": [
+   "law",
+   "inf"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "A Taxonomy to regulate coaching institutions in India",
+  "with": "I. Salovaara",
+  "fields": [
+   "edu",
+   "reg"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Public Procurement Disputes in Infrastructure: A survey of National Highway Authority of India Cases in Delhi High Court during 2010-2020",
+  "with": "L. Kumar",
+  "fields": [
+   "proc",
+   "law"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Motivation across Public Procurement Employees in India: A Survey-based Assessment",
+  "with": "M.P. Menon and M. Kumar",
+  "fields": [
+   "proc"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Will Performance-based Procurement work in India: A Transaction Cost Economics Approach",
+  "with": "M.P. Menon",
+  "fields": [
+   "proc"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "The Creation and Transformation of Districts: Colonial to Independent India",
+  "with": "D. Sherpa",
+  "fields": [
+   "know"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Census Questions as Mirror of Priorities: A Survey of all Census questions since 1871 in India",
+  "with": "A. Ganjoo",
+  "fields": [
+   "know"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Tracing Constitutional Borrowings through NLP: Drafts of the Indian Constitution since the 1890s",
+  "with": "S.K. Jolad and R. Vishwakarma",
+  "fields": [
+   "law",
+   "know"
+  ]
+ },
+ {
+  "type": "paper",
+  "title": "Do Indians Vote for Candidate or Party: Analysing Voting Patterns of Candidates who defected parties in Indian Elections Since 1962",
+  "with": "M.P. Menon and S. Menon",
+  "fields": [
+   "elec"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "The Chronicle Project: Documenting Cultures and Statistics of 36 Districts of Maharashtra (Pilot)",
+  "note": "Grant of ~$500,000 from private donors (launch forthcoming, in 2025)",
+  "link": "https://www.indiandistricts.in",
+  "fields": [
+   "know"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "Two Global Indices, benchmarking 150+ countries across global datasets",
+  "note": "Grant from FLAME University (forthcoming in 2025)",
+  "subs": [
+   "World Sustainable Development Index (building a theory and identifying new variables across consumption levels)",
+   "World Democracy Index (curating an index with objective variables rather than surveys)"
+  ],
+  "fields": [
+   "econ",
+   "know"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "IKS Gyan Gunjan: Cultural Repository of Jeevan Darshana of India",
+  "note": "Grant of ~$100,000 from IKS Division, Ministry of Education (launch forthcoming, in 2025)",
+  "link": "https://iksgyangunjan.in/login",
+  "fields": [
+   "know"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "Scholars in Global South: Project on Scholactivism",
+  "note": "Grant of ~$14,000 from Law & Society Association and ~$8,000 from University of Hong Kong",
+  "year": "2024",
+  "fields": [
+   "know",
+   "law"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "Two projects on public procurement",
+  "note": "Total grant of ~$14,000 from Procurement Research Cell, AJNIFM, Ministry of Finance",
+  "year": "2022-24",
+  "subs": [
+   "Procurement Professionals' Motivation: A Survey-based Approach",
+   "Performance-based Procurement in Indian Context: A Systematic Literature Review"
+  ],
+  "fields": [
+   "proc"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "Evaluating an art-based learning pedagogy in low-income schools in India",
+  "note": "Grant of ~$7,000 from Lakshmi Mittal and Family South Asian Institute, Harvard University",
+  "year": "2022-23",
+  "link": "https://mittalsouthasiainstitute.harvard.edu/2022/03/pre-texts/",
+  "fields": [
+   "edu"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "History of India's Public Administration: A Timeline",
+  "note": "Grant of ~$10,000 from Capacity Building Commission, Government of India",
+  "year": "2022-23",
+  "link": "https://cbc.gov.in/node/92",
+  "fields": [
+   "know"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "Two projects on agricultural credit and policy (co-PI)",
+  "note": "Total grant of ~$45,000 from NABARD to external agency",
+  "year": "2022-23",
+  "subs": [
+   "Adoption of Kisan Credit Card: Policy analysis and Survey in Gujarat, MP, Punjab, TN, Bihar, Assam",
+   "Issues related to Credit, Insurance, Storage and Marketing Policies in Agriculture: Survey in UP, MP, MH, RJ and Assam"
+  ],
+  "fields": [
+   "econ"
+  ]
+ },
+ {
+  "type": "grant",
+  "title": "Gazetteer of Karnal, Government of Haryana, India",
+  "note": "Grant of ~$20,000 from Revenue and Disaster Management Department, Government of Haryana",
+  "year": "2016",
+  "link": "https://jgu-dev.s3.ap-south-1.amazonaws.com/Executive+Summary+Nov+2016.pdf",
+  "fields": [
+   "know"
+  ]
+ },
+ {
+  "type": "finalist",
+  "title": "Scholars in the Global South",
+  "note": "Einstein Foundation Early Career Grant, finalist",
+  "year": "2023",
+  "link": "https://award.einsteinfoundation.de/award-winners-finalists/recipients-2023/early-career-researcher-award-2023-finalists",
+  "fields": [
+   "know"
+  ]
+ },
+ {
+  "type": "finalist",
+  "title": "Scheme for Group-Captive Power Plant, through Co-financing in Small Scale Clusters in India",
+  "note": "Financing Sustainable Development: Ideas for Action, World Bank Report, grant finalist",
+  "year": "2015",
+  "link": "https://documents1.worldbank.org/curated/en/523291467999707921/txt/99313-PUB-Box393195B-PUBLIC-PUBDATE-9-2-15-DOI-10-1596-K8401.txt",
+  "fields": [
+   "env",
+   "econ"
+  ]
+ }
+]

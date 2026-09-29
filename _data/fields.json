@@ -1,0 +1,12 @@
+{
+ "inf": "Informality & Markets",
+ "reg": "Regulation & Governance",
+ "proc": "Public Procurement",
+ "law": "Law & Institutions",
+ "elec": "Elections & Politics",
+ "edu": "Education",
+ "know": "Knowledge & History",
+ "econ": "Economics & Development",
+ "ip": "Technology & IP",
+ "env": "Energy & Environment"
+}

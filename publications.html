@@ -1,0 +1,27 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<div class="filter-layout" data-filterable>
+  {% include filters.html %}
+  <div class="results">
+    {%- assign groups = "journal|Journal Articles,chapter|Book Chapters,book|Books" | split: "," -%}
+    {%- for g in groups %}
+    {%- assign kv = g | split: "|" %}
+    <section data-group>
+      <h2>{{ kv[1] }}</h2>
+      <ul class="entries">
+        {%- for p in site.data.publications %}{% if p.type == kv[0] %}
+        {% include item.html p=p %}
+        {%- endif %}{% endfor %}
+      </ul>
+    </section>
+    {%- endfor %}
+
+    <h2>Other scholarly work</h2>
+    <p><strong>Book reviews:</strong> <a href="https://www.journals.uchicago.edu/doi/10.1086/709601"><em>American Journal of Sociology</em> (2019, for Maurizio Catino's <em>Mafia Organizations</em>)</a>; <a href="https://www.india-seminar.com/2012/633/633_books.htm"><em>Seminar</em> (2012, for Narayan Lakshman's <em>Patrons of the Poor</em>)</a>.</p>
+    <p><strong>Reviewer:</strong> <em>Regulation &amp; Governance, Politics &amp; Policy, Economic &amp; Political Weekly, Deviant Behaviour, Journal of Institutional Economics, Sexuality Research and Social Policy</em></p>
+  </div>
+</div>

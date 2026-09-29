@@ -1,0 +1,19 @@
+---
+layout: default
+title: Op-eds
+permalink: /op-eds/
+---
+
+<div class="filter-layout" data-filterable>
+  {% include filters.html %}
+  <div class="results">
+    <section data-group>
+      <h2>Selected Opinion Pieces in Media</h2>
+      <ul class="entries">
+        {%- for p in site.data.oped %}
+        {% include item.html p=p %}
+        {%- endfor %}
+      </ul>
+    </section>
+  </div>
+</div>

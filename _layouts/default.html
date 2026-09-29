@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.time | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <aside class="side">
+        <img class="photo" src="{{ site.photo | relative_url }}" alt="{{ site.title }}">
+        <h1 class="name"><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <p class="tagline">{{ site.tagline | join: "<br>" }}</p>
+        <p class="email"><i class="fa-regular fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <ul class="social">
+          {%- for s in site.social %}
+          <li><a href="{{ s.link }}" rel="me"><i class="{{ s.icon }}"></i> {{ s.name }}</a></li>
+          {%- endfor %}
+        </ul>
+      </aside>
+
+      <main class="main">
+        <nav class="tabs">
+          {%- for item in site.nav %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.name }}</a>
+          {%- endfor %}
+        </nav>
+
+        {{ content }}
+      </main>
+    </div>
+    <script src="{{ "/assets/js/filter.js" | relative_url }}"></script>
+  </body>
+</html>

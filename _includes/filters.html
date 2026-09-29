@@ -1,0 +1,9 @@
+<div class="filters">
+  <h3>Field</h3>
+  <ul>
+    <li><button type="button" data-filter="all" aria-pressed="true">All <span class="count"></span></button></li>
+    {%- for f in site.data.fields %}
+    <li><button type="button" data-filter="{{ f[0] }}" aria-pressed="false">{{ f[1] }} <span class="count"></span></button></li>
+    {%- endfor %}
+  </ul>
+</div>

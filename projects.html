@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<div class="filter-layout" data-filterable>
+  {% include filters.html %}
+  <div class="results">
+    {%- assign groups = "grant|External Grant Projects,finalist|Grant Finalist" | split: "," -%}
+    {%- for g in groups %}
+    {%- assign kv = g | split: "|" %}
+    <section data-group>
+      <h2>{{ kv[1] }}</h2>
+      <ul class="entries">
+        {%- for p in site.data.projects %}{% if p.type == kv[0] %}
+        {% include item.html p=p %}
+        {%- endif %}{% endfor %}
+      </ul>
+    </section>
+    {%- endfor %}
+  </div>
+</div>
