@@ -13,7 +13,7 @@
       <aside class="side">
         <img class="photo" src="{{ site.photo | relative_url }}" alt="{{ site.title }}">
         <h1 class="name"><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
-        <p class="tagline">{{ site.tagline | join: "<br>" }}</p>
+        <p class="position">{{ site.position | join: "<br>" }}</p>
         <p class="email"><i class="fa-regular fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
         <ul class="social">
           {%- for s in site.social %}
